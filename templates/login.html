@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>logIn</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='bootstrap.min.css')}}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans">
+    <link rel="stylesheet" href="{{url_for('static',filename='login.css')}}">
+</head>
+
+<body>
+    <div id="join-class" class="join-class">
+        <h1 style="text-align: center;">&nbsp; Log Into Account&nbsp;&nbsp;</h1>
+        <div class="content">
+            <form method="POST" action='/login'>
+                {{ form.hidden_tag() }}
+                {{ form.username(class="inputs", placeholder="Username") }}
+                {{ form.password(class="inputs", placeholder="Password") }}
+                {{ form.submit(class="btn btn-primary", id="log-in-btn") }}
+            </form>
+            <!--<input type="text" class="inputs">
+            <input type="password" class="inputs">
+            <button class="btn btn-primary" id="log-in-btn" type="button">Log In</button>-->
+            <a class="btn btn-primary" id="no-account-btn" href="{{url_for('register')}}">Don't have an account</a>
+        </div>
+        <a class="btn btn-primary" id="returnHome" href="{{url_for('index')}}">Return Home</a>
+    </div>
+    <script src="{{url_for('static',filename='jquery.min.js')}}"></script>
+    <script src="{{url_for('static',filename='bootstrap.min.js')}}"></script>
+</body>
+
+</html>

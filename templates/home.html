@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='bootstrap.min.css')}}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans">
+    <link rel="stylesheet" href="{{url_for('static',filename='home.css')}}">
+</head>
+
+<body>
+    <div class="benoolean">
+        <button class="btn btn-primary" id="startRec" type="button">Start Recording</button>
+        <button class="btn btn-primary" id="stopRec" type="button">Stop Recording</button>
+    </div>
+    <div class="headTop">
+        <div class="topContent">
+            <h1>Class Code</h1>
+            <input type="text" class="className" placeholder="{{ current_user.code }}" disabled>
+            <button class="btn btn-primary" id="btnStartLec" type="button">Start Lecture</button>
+        </div>
+    </div>
+    <div class="newClass">
+        <button class="btn btn-primary" id="btnStopLec" type="button">Stop Lecture</button>
+    </div>
+    <audio controls hidden></audio>
+</body>
+<script src="{{url_for('static',filename='jquery.min.js')}}"></script>
+<script src="{{url_for('static',filename='bootstrap.min.js')}}"></script>
+<script src="{{url_for('static',filename='home.js')}}"></script>
+</html>

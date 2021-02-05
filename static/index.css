@@ -1,0 +1,86 @@
+body {
+  background: #34302C;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar.navbar-light.navbar-expand-md {
+  background: #141311;
+}
+
+.footer-clean {
+  background: #DDDDDD;
+  width: 100%;
+  height: 25%;
+  bottom: 0;
+  position: fixed;
+}
+
+#main-body {
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 2%;
+  padding-bottom: 50px;
+}
+
+h1 {
+  position: relative;
+  width: auto;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+p {
+  position: relative;
+  width: auto;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.col-md-4 {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+}
+
+.tutorial {
+  background: #c4c4c4;
+  color: black;
+  height: 300px;
+  word-wrap: break-word;
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.25));
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.bot {
+  height: 200px;
+  z-index: -1;
+  background: #DDDDDD;
+  margin-top: 225px;
+  width: 100%;
+  position: relative;
+  left: 0;
+  position: absolute;
+}
+
+.row {
+  width: 100%;
+  position: absolute;
+}
+
+.container {
+  margin: 0;
+}
+

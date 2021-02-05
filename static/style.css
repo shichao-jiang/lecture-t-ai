@@ -1,0 +1,12 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#username {
+    font-size: 1rem;
+    padding: 0.25rem; 
+}
+
+label[for='username'] {
+    font-size: 1rem;
+}

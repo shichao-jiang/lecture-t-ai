@@ -1,0 +1,97 @@
+body {
+  background: #34302c;
+}
+
+#join-class {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.inputs {
+  padding: 0;
+  height: 30px;
+  position: relative;
+  outline: none;
+  border: 1px solid #cdcdcd;
+  border-color: rgba(0,0,0,.15);
+  background-color: white;
+  font-size: 16px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #FFFFFF;
+  font-family: noto sans;
+  margin-bottom: 50px;
+}
+
+#create-account-btn {
+  padding: 10px 15px 11px;
+  font-size: 18px;
+  background-color: #a80e7d;
+  font-weight: bold;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  border: #a80e7d;
+}
+
+#returnHome {
+  padding: 10px 15px 11px;
+  font-size: 18px;
+  background-color: #a80e7d;
+  font-weight: bold;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 200px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  border: #a80e7d;
+}
+
+.join-class.back {
+  height: 400px;
+  z-index: -1;
+  width: 1000px;
+  background: #777777;
+  position: relative;
+  transform: rotate(-45deg);
+  top: -45px;
+  left: -10px;
+  overflow: hidden;
+  /*right: 10px;*/
+  /*bottom: 200px;*/
+  /*height: 100%;*/
+}
+
+.join-class.back2 {
+  height: 278px;
+  width: 278px;
+  z-index: -2;
+  background: #777777;
+  position: relative;
+  bottom: 28px;
+}
+
+.content {
+  padding: 60px 40px;
+  background: #c4c4c4;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>studentView</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='questions.css')}}">
+</head>
+
+<body>
+    <h1 style="height: 64;color: rgb(255,255,255);">Lecture Questions</h1>
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div>
+                        <p id="instructions">Questions will appear here. Please Submit your answer below.</p><textarea class="answer"></textarea><button class="btn btn-primary" id="submit-btn" type="button">Submit</button>
+                    </div>
+                </div>
+                <div class="col">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="benoolean">
+        <div class="qtitle">
+            <p class="qtitle-1">Additional Questions</p>
+            {% for question in questions %}
+            <p>{{loop.index}}. {{  question.text }}</p>
+            {% endfor %}
+        </div>
+    <script src="{{url_for('static',filename='jquery.min.js')}}"></script>
+    <script src="{{url_for('static',filename='bootstrap.min.js')}}"></script>
+</body>
+
+</html>

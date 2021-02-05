@@ -1,0 +1,113 @@
+body {
+  background: #34302c;
+}
+
+.headTop {
+  margin-top: 2%;
+  height: 200px;
+  background: #777777;
+  outline: none;
+}
+
+.benoolean {
+  position: absolute;
+  height: 100vh;
+  left: 4%;
+  width: 500px;
+  background: #c4c4c4;
+  z-index: -1;
+  top: 0;
+}
+
+.topContent {
+  height: 100%;
+  width: 550px;
+  float: right;
+}
+
+h1 {
+  padding: 10px;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: noto sans;
+}
+
+.className {
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
+  height: 30px;
+  border: 1px solid #cdcdcd;
+  border-color: rgba(0,0,0,.15);
+  background-color: white;
+  font-size: 16px;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+  padding: 10px;
+}
+
+#btnStartLec, #btnStopLec {
+  padding: 10px 15px 11px;
+  font-size: 18px;
+  background-color: #a80e7d;
+  font-weight: bold;
+  cursor: pointer;
+  display: block;
+  width: 200px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  border: #a80e7d;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+#startRec {
+  padding: 10px 15px 11px;
+  font-size: 18px;
+  background-color: #a80e7d;
+  font-weight: bold;
+  cursor: pointer;
+  display: block;
+  width: 200px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  border: #a80e7d;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90%;
+}
+
+#stopRec {
+  padding: 10px 15px 11px;
+  font-size: 18px;
+  background-color: #a80e7d;
+  font-weight: bold;
+  cursor: pointer;
+  display: block;
+  width: 200px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  border: #a80e7d;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.newClass {
+  width: 550px;
+  height: 200px;
+  float: right;
+  background: #5a5a5a;
+}
+
+p {
+  padding: 30px;
+  text-align: center;
+  font-family: 'Noto Sans';
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+#btnStartLec:focus {
+  background: red;
+}
